@@ -7,6 +7,9 @@ gem 'rails', '3.0.1'
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 
+# Downgrade to rake v 0.8.7 to migrate
+gem 'rake', '~> 0.8.7'
+
 # Use unicorn as the web server
 # gem 'unicorn'
 
